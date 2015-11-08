@@ -14,6 +14,8 @@
 		E1F9F5B31BEFF33400001261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F9F5B11BEFF33400001261 /* LaunchScreen.storyboard */; };
 		E1F9F5BC1BEFF49800001261 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9F5BA1BEFF49800001261 /* View1.swift */; };
 		E1F9F5BD1BEFF49800001261 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F9F5BB1BEFF49800001261 /* View1.xib */; };
+		E1F9F5C01BEFF75800001261 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9F5BE1BEFF75800001261 /* View2.swift */; };
+		E1F9F5C11BEFF75800001261 /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F9F5BF1BEFF75800001261 /* View2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E1F9F5B41BEFF33400001261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1F9F5BA1BEFF49800001261 /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
 		E1F9F5BB1BEFF49800001261 /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		E1F9F5BE1BEFF75800001261 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		E1F9F5BF1BEFF75800001261 /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				E1F9F5A81BEFF33400001261 /* AppDelegate.swift */,
 				E1F9F5AA1BEFF33400001261 /* ViewController.swift */,
 				E1F9F5AC1BEFF33400001261 /* Main.storyboard */,
+				E1F9F5BE1BEFF75800001261 /* View2.swift */,
+				E1F9F5BF1BEFF75800001261 /* View2.xib */,
 				E1F9F5BA1BEFF49800001261 /* View1.swift */,
 				E1F9F5BB1BEFF49800001261 /* View1.xib */,
 				E1F9F5AF1BEFF33400001261 /* Assets.xcassets */,
@@ -131,6 +137,7 @@
 				E1F9F5B31BEFF33400001261 /* LaunchScreen.storyboard in Resources */,
 				E1F9F5B01BEFF33400001261 /* Assets.xcassets in Resources */,
 				E1F9F5BD1BEFF49800001261 /* View1.xib in Resources */,
+				E1F9F5C11BEFF75800001261 /* View2.xib in Resources */,
 				E1F9F5AE1BEFF33400001261 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +152,7 @@
 				E1F9F5AB1BEFF33400001261 /* ViewController.swift in Sources */,
 				E1F9F5BC1BEFF49800001261 /* View1.swift in Sources */,
 				E1F9F5A91BEFF33400001261 /* AppDelegate.swift in Sources */,
+				E1F9F5C01BEFF75800001261 /* View2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +302,7 @@
 				E1F9F5B91BEFF33400001261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
