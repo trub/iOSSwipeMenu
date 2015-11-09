@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="View3" customModule="swipeMenu" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="View3" customModule="SnapchatCamera" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -15,7 +15,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <animations/>
-            <color key="backgroundColor" red="1" green="0.43602211050165784" blue="0.36155917468569054" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.99026779745989302" green="0.98080668872121168" blue="0.56092587183570375" alpha="1" colorSpace="calibratedRGB"/>
         </view>
     </objects>
 </document>

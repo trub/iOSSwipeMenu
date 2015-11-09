@@ -1,14 +1,14 @@
 //
-//  View1.swift
-//  swipeMenu
+//  ddd.swift
+//  SnapchatCamera
 //
-//  Created by Matthew Weintrub on 11/8/15.
-//  Copyright © 2015 matthew weintrub. All rights reserved.
+//  Created by Matthew Weintrub on 11/9/15.
+//  Copyright © 2015 Archetapp. All rights reserved.
 //
 
 import UIKit
 
-class View1: UIViewController {
+class ddd: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>swipeMenu.xcscheme</key>
+		<key>SnapchatCamera.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E1F9F5A41BEFF33400001261</key>
+		<key>AC94AD5A1B8E40BF002D9AD2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC94AD6F1B8E40BF002D9AD2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

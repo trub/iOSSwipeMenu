@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swipeMenu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SnapchatCamera" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -17,22 +17,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ANo-Tb-A7M">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vdu-Lu-PMP">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                             </scrollView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.94999999999999996"/>
                         <constraints>
-                            <constraint firstItem="ANo-Tb-A7M" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="CB6-eK-dja"/>
-                            <constraint firstItem="ANo-Tb-A7M" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MOS-Db-VOK"/>
-                            <constraint firstItem="ANo-Tb-A7M" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="cap-lW-hd1"/>
-                            <constraint firstItem="ANo-Tb-A7M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="shX-41-tuv"/>
+                            <constraint firstItem="vdu-Lu-PMP" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ERz-S4-kxO"/>
+                            <constraint firstAttribute="centerY" secondItem="vdu-Lu-PMP" secondAttribute="centerY" id="cFv-Qu-aC3"/>
+                            <constraint firstAttribute="centerX" secondItem="vdu-Lu-PMP" secondAttribute="centerX" id="gh8-kD-U2d"/>
+                            <constraint firstItem="vdu-Lu-PMP" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="qea-X2-bPa"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="scrollView" destination="ANo-Tb-A7M" id="MiH-5v-0tx"/>
+                        <outlet property="scrollView" destination="vdu-Lu-PMP" id="yfA-D4-cFb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

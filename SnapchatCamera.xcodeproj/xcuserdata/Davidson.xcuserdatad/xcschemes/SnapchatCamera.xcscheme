@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,70 +14,91 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E1F9F5A41BEFF33400001261"
-               BuildableName = "swipeMenu.app"
-               BlueprintName = "swipeMenu"
-               ReferencedContainer = "container:swipeMenu.xcodeproj">
+               BlueprintIdentifier = "AC94AD5A1B8E40BF002D9AD2"
+               BuildableName = "SnapchatCamera.app"
+               BlueprintName = "SnapchatCamera"
+               ReferencedContainer = "container:SnapchatCamera.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AC94AD6F1B8E40BF002D9AD2"
+               BuildableName = "SnapchatCameraTests.xctest"
+               BlueprintName = "SnapchatCameraTests"
+               ReferencedContainer = "container:SnapchatCamera.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AC94AD6F1B8E40BF002D9AD2"
+               BuildableName = "SnapchatCameraTests.xctest"
+               BlueprintName = "SnapchatCameraTests"
+               ReferencedContainer = "container:SnapchatCamera.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1F9F5A41BEFF33400001261"
-            BuildableName = "swipeMenu.app"
-            BlueprintName = "swipeMenu"
-            ReferencedContainer = "container:swipeMenu.xcodeproj">
+            BlueprintIdentifier = "AC94AD5A1B8E40BF002D9AD2"
+            BuildableName = "SnapchatCamera.app"
+            BlueprintName = "SnapchatCamera"
+            ReferencedContainer = "container:SnapchatCamera.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
-      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1F9F5A41BEFF33400001261"
-            BuildableName = "swipeMenu.app"
-            BlueprintName = "swipeMenu"
-            ReferencedContainer = "container:swipeMenu.xcodeproj">
+            BlueprintIdentifier = "AC94AD5A1B8E40BF002D9AD2"
+            BuildableName = "SnapchatCamera.app"
+            BlueprintName = "SnapchatCamera"
+            ReferencedContainer = "container:SnapchatCamera.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1F9F5A41BEFF33400001261"
-            BuildableName = "swipeMenu.app"
-            BlueprintName = "swipeMenu"
-            ReferencedContainer = "container:swipeMenu.xcodeproj">
+            BlueprintIdentifier = "AC94AD5A1B8E40BF002D9AD2"
+            BuildableName = "SnapchatCamera.app"
+            BlueprintName = "SnapchatCamera"
+            ReferencedContainer = "container:SnapchatCamera.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

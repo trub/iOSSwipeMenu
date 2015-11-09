@@ -1,14 +1,15 @@
 //
-//  View2.swift
-//  swipeMenu
+//  View1.swift
+//  SnapchatCamera
 //
 //  Created by Matthew Weintrub on 11/8/15.
 //  Copyright © 2015 matthew weintrub. All rights reserved.
 //
 
+
 import UIKit
 
-class View2: UIViewController {
+class View1: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
